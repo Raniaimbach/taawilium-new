@@ -1,0 +1,52 @@
+{
+  "prompts": [
+    {
+      "id": "ttdm_v4_islamic_sci",
+      "conditions": {
+        "language": ["ar", "en", "de"],
+        "culture": ["islamic"],
+        "tier": ["premium"],
+        "scientific": true
+      },
+      "multilang": true,
+      "components": {
+        "persona": "ibn_sirin_modern",
+        "methodology": "dcas",
+        "cultural_layer": "islamic_extended",
+        "output_format": "timeline_predictions"
+      }
+    },
+    {
+      "id": "ttdm_v3_universal_sci",
+      "conditions": {
+        "language": ["ar", "en", "de"],
+        "culture": ["western", "global"],
+        "tier": ["premium", "free"],
+        "scientific": true
+      },
+      "multilang": true,
+      "components": {
+        "persona": "dr_elena_morpheus",
+        "methodology": "neuro_dream_model",
+        "cultural_layer": "universal_neutral",
+        "output_format": "scientific_report"
+      }
+    },
+    {
+      "id": "ttdm_v3_islamic_spirit",
+      "conditions": {
+        "language": ["ar", "en", "de"],
+        "culture": ["islamic"],
+        "tier": ["premium"],
+        "scientific": false
+      },
+      "multilang": true,
+      "components": {
+        "persona": "ibn_sirin_spiritual",
+        "methodology": "spiritual_deduction",
+        "cultural_layer": "islamic_classical",
+        "output_format": "inspired_reading"
+      }
+    }
+  ]
+}
