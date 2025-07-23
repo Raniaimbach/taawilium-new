@@ -80,8 +80,7 @@ export default function TestPage() {
 
   const t = labels[language];
   const dir = language === 'ar' ? 'rtl' : 'ltr';
-
-
+  
   const handleInterpret = async () => {
     setLoading(true);
     setInterpretation('');
