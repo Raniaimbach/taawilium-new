@@ -80,7 +80,7 @@ export default function TestPage() {
 
   const t = labels[language];
   const dir = language === 'ar' ? 'rtl' : 'ltr';
-  const align = language === 'ar' ? 'text-right' : 'text-left';
+
 
   const handleInterpret = async () => {
     setLoading(true);
